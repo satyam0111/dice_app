@@ -22,7 +22,7 @@ st.write(f"{player2} rolled a {roll2}")
 
 if roll1 > roll2:
     st.write(f"{player1} WINS !!")
-else if roll1==roll2:
+elif roll1==roll2:
     st.write("No one WINS !!")
 else:
     st.write(f"{player2} WINS !!")
