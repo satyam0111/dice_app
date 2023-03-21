@@ -12,11 +12,14 @@ player2 = st.text_input("Enter Player 2 name:")
 def roll_dice():
     roll = random.randint(1, 6)
     return roll
+def roll_dice2():
+    roll2 = random.randint(1, 6)
+    return roll2
 
 def update_rolls():
     global global_roll1, global_roll2
     global_roll1 = roll_dice()
-    global_roll2 = roll_dice()
+    global_roll2 = roll_dice2()
     
 update_rolls()
 
